@@ -2,9 +2,13 @@ package main
 
 import "fmt"
 
-var name = 15
+var age = 15
 
+// test
 func main() {
-	fmt.Println(name)
+	if age == 15 && age > 18 {
+		fmt.Println("You are young")
+	}
+
 	fmt.Println("Hello, World!")
 }
