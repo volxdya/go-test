@@ -8,4 +8,5 @@ import (
 func main() {
 	models.Hello()
 	models.TestTypes()
+	models.TestStructs()
 }
